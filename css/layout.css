@@ -1,0 +1,79 @@
+body{
+	padding-bottom: 40px; 
+	color: #5a5a5a;
+}
+
+body{
+    background: url("../img/mooning.png") repeat scroll 0 0 #E5E5E5;
+    overflow-x: hidden;
+}
+
+.carousel{margin-bottom: 60px;}
+.carousel-control{height: 80px; margin-top: 0px; font-size: 120px; text-shadow: 0 1px 1px rgba(0,0,0,.4); background-color: transparent; border: 0; z-index: 10;}
+
+.padding-large {
+    padding: 45px;
+}
+
+.span12 {
+    width: 1170px;
+  }
+
+.panel {
+    background: url("../img/white_wall_hash.png") repeat scroll 0 0 #FFFFFF;
+    border-radius: 6px 6px 6px 6px;
+    box-shadow: 0 1px 8px 1.5px rgba(0, 0, 0, 0.35), 0 20px 70px 8px rgba(0, 0, 0, 0.25);
+    color: #333333;
+    display: none;
+    margin-bottom: 120px;
+    padding: 0;
+}
+
+.coming-soon {
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+}
+
+.inner-bg {
+    padding: 55px 0 60px 0;
+    background: url(../img/pattern-3.png);
+    -moz-box-shadow: 0 1px 5px 0 rgba(0,0,0,.3) inset;
+    -webkit-box-shadow: 0 1px 5px 0 rgba(0,0,0,.3) inset;
+    box-shadow: 0 1px 5px 0 rgba(0,0,0,.3) inset;
+}
+
+.timer .days-wrapper,
+.timer .hours-wrapper,
+.timer .minutes-wrapper,
+.timer .seconds-wrapper {
+    display: inline-block;
+    width: 160px;
+    height: 140px;
+    margin: 0 10px;
+    padding-top: 20px;
+    background: #2d2d2d; /* browsers that don't support rgba */
+    background: rgba(45,45,45,.7);
+    font-size: 18px;
+    -moz-border-radius: 80px;
+    -webkit-border-radius: 80px;
+    border-radius: 80px;
+}
+
+.timer .days-wrapper:hover,
+.timer .hours-wrapper:hover,
+.timer .minutes-wrapper:hover,
+.timer .seconds-wrapper:hover {
+    background: #e75967 url(../img/pattern-2.png);
+    text-shadow: none;
+}
+
+.timer .days,
+.timer .hours,
+.timer .minutes,
+.timer .seconds {
+    font-size: 80px;
+    line-height: 90px;
+}
+
+
